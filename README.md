@@ -22,4 +22,4 @@ Write a function which updates a record in the local data-store.  Again, make su
 ### Bonus
 Start working through the addititional BONUS instructions (#4) in `app.js`
 
-Once you've completed the assignment, `commit` and `push` your changes and then submit your repository to the completed assignments roster. 
+When you've finished, **`commit`** your changes, **`push`** to your remote repository and **merge** your finished version into branch **master** and submit your repo link via the assignments roster.
