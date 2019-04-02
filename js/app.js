@@ -8,14 +8,14 @@ function onDatabaseReady() {
 
 function deleteBook(event) {
 
-    // 1: YOUR CODE HERE
+    // See #1: YOUR CODE HERE
 
 }
 
 
 function addBook(event) {
 
-    // 2: YOUR CODE HERE
+    // See #2: YOUR CODE HERE
 
     // Hint: Once you've added the book to your database, call populateTableUI with the added book's title
     // Check out the Table.put() method and what it returns at: https://dexie.org/docs/Table/Table.put()
@@ -25,7 +25,7 @@ function addBook(event) {
 
 function editBook(event) {
 
-    // 3. YOUR CODE HERE
+    // See #3. YOUR CODE HERE
 
 }
 
