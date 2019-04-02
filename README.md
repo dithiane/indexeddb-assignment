@@ -1,14 +1,14 @@
-# indexedDB-with-DexieJs-assignment
+# indexedDB-with-DexieJS-assignment
 
-For this assignment we will be creating a client-side data storage mechanism to store/cache some book-like objects from a local `JSON` file. 
+## For this assignment we will be creating a client-side data storage mechanism to store/cache some book-like objects from a local `JSON` file. 
 
-We will be utilizing [DexieJS](https://dexie.org/), a minimalistic wrapper (read framework) for [IndexedDb](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) to perform **CRUD** operations on this local data store.  
+We will be utilizing [DexieJS](https://dexie.org/), a minimalistic JavaScript wrapper (read framework) for [IndexedDb](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) to perform **CRUD** operations on this local data store.  
 
-To get started, open up `/js/indexedDB.js` to see how the local data store is initialized, and what it holds. 
+To get started, open up `/js/indexedDB.js` to see how the local data store is initialized, as well as what it holds. 
 
-After you've familiarized yourself with the local "database", open up `/js/app.js` and start working in the `onDatabaseReady` function.  
+After you've familiarized yourself with the schema and data, open up `/js/app.js` and start working in the `onDatabaseReady` function.  
 
-We are going to write a few functions, which perform basic **CRUD** operations on our "library_database"
+We are going to write a few functions, which perform basic **CRUD** operations on our "library_database" data store.
 
 ### Delete Book
 Write a function which deletes a single book by it's primary key (title in this case) from the local data-store
