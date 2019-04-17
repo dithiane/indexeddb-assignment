@@ -1,6 +1,6 @@
 # indexedDB-with-DexieJS-assignment
 
-## For this assignment we will be creating a client-side data storage mechanism to store/cache some book-like objects from a local `JSON` file. 
+### For this assignment we will be creating a client-side data storage mechanism to store/cache some book-like objects from a local `JSON` file. 
 
 We will be utilizing [DexieJS](https://dexie.org/), a minimalistic JavaScript wrapper (read framework) for [IndexedDb](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) to perform **CRUD** operations on this local data store.  
 
