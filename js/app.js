@@ -1,7 +1,7 @@
 function onDatabaseReady() {
-    populateTableUI() // DO NOT TOUCH THIS LINE until step #4
+    populateTableUI() // DO NOT TOUCH THIS LINE until step #4-5
 
-    console.log(db);
+    console.log(`This is our database: `, db);
     // DexieJS docs: https://dexie.org/
 }
 
@@ -30,7 +30,9 @@ function editBook(event) {
 }
 
 
-// ************ 4. (BONUS) Comment out line 67 in ../index.HTML and write your own 'populateTableUI' function in app.js ************
+// ************ 4. (BONUS) There is a bug in the 'populateTableUI' function... see if you can find it and update the function ************
+
+// ************ 5. (BONUS #2) Comment out line 67 in ../index.HTML and write your own 'populateTableUI' function in app.js ************
 
 
 // Now that you’ve cloned your project lets start by testing our code. Let's start live 
@@ -54,6 +56,7 @@ function editBook(event) {
 //book to the books store in indexedDB and auto-update the table without refreshing the page.
 //Hint: This add operation is on the front page of DexieJS.  Both is and Table.put() can be 
 // used to add this book. 
+
 
 // 3.) Now make each table row editable and update the database when the edit is complete. This will
 //take a lot of effort from the html to the js. Use the title as your UID (Unique identifier)
