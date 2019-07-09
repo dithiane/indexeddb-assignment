@@ -1,7 +1,7 @@
 var updateFlag = false;
 
 function onDatabaseReady() {
-    populateTableUI({},true) // DO NOT TOUCH THIS LINE until step #4-5
+    populateTableUI() // DO NOT TOUCH THIS LINE until step #4-5
 
     console.log(`This is our database: `, db);
     // DexieJS docs: https://dexie.org/
