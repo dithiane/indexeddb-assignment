@@ -1,3 +1,6 @@
+body {
+  margin:  0 0 10rem;
+}
 form {
   width: 60vw;
   margin:auto;
@@ -10,4 +13,14 @@ table.table.table-striped{
 
 h1 {
   text-align:center;
+}
+.btnEdit {
+  background: rgb(120, 173, 233);
+  border: 0.1rem white solid;
+  width: 5rem;
+}
+.btnDelete {
+  background: rgb(238, 173, 235);
+  border: 0.1rem white solid;
+  width: 5rem;
 }
